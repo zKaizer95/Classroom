@@ -1,0 +1,72 @@
+<!--Criando formulário de contato-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <!--abrindo tag style para alterar background da página, usando estilo gradiente -->
+    <style>
+        body {
+            height: 100vh;
+            background: linear-gradient(120deg, #0418d1f8, #000000);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    <!--fim da tag style e fechamento da tag head-->
+</head>
+<!--Iniciando o formulário-->
+<body>
+    <center>
+        
+            <h3><font color="white" face="arial">Formulário de</font> <font face="arial" color="yellow">Cadastro de Contato</font></h3>
+
+            <hr color="yellow">
+        <form action="index.html">
+
+            <label><font face="monospace" color="white">Nome: </font></label>
+            <input type="text" name="nome" placeholder="Digite seu nome"/>
+            <br>
+            <br>
+            <label><font face="monospace" color="white">E-mail: </font></label>
+            <input type="text" name="email" size="19" placeholder="Digite seu email" required/>
+            <br>
+            <br>
+            <label><font face="monospace" color="white">Password: </font></label>
+            <input type="password" name="senha" size="25" maxlength="4" placeholder="Senha de 4 dígitos"/>
+            
+            <br>
+            <br>
+            <label><font face="monospace" color="white">NOTA: </font></label>
+            <input type="number" min="0" max="10" step="0.5" placeholder="Nota"/><br><br>
+                
+            <label><font face="monospace" color="white">Data: </font></label>
+            <input type="date" name="data"><br><br>
+
+            <fieldset>
+                <label><font face="monospace" color="white">Escolha uma linguagem de programação:</font></label><br>
+                <br>
+                    <font face="monospace" color="white">
+                        <input type="radio" name="linguagem" /> Python <br>
+                        <input type="radio" name="linguagem"/> JavaScript <br>
+                        <input type="radio" name="linguagem"/> Java <br>
+                        <br>
+                        <input type="checkbox" name="nenhum"/> Sou Junior <br>
+                    </font>  
+                     
+            </fieldset>
+            <!--tag fieldset agrupa partes do formulário com uma moldura-->
+            <br>
+
+            
+            <input type="submit" name="enviar" value="Enviar Dados"/><br>
+            <br>
+            <input type="reset" name="limpar" value="Limpar Dados"/>
+
+        </form>
+
+    </center>
+</body>
+</html>
