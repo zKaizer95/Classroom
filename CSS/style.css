@@ -1,0 +1,21 @@
+/* início da programação CSS */
+
+body{
+    background: #000000; margin-top: auto; margin-left: 450px; margin-right: 200px;
+}
+
+h3{
+    color: rgb(255, 0, 0); font-family: monospace; font-size: 20px; letter-spacing: 2.0px;margin-left: 50px;
+}
+
+h2{
+    color: rgb(255, 0, 0); font-family: monospace; font-size: 20px; letter-spacing: 1.0px;margin-left: 10px;
+}
+
+p{
+    color: rgb(255, 0, 0); font-family: monospace; font-size: 15px; letter-spacing: 1.0px; margin-left: 20px;
+}
+
+pre{
+    color: lawngreen; font-family: monospace; font-size: 30px;
+}
