@@ -1,11 +1,5 @@
-<?php
-$nome = 'A soma é: ' ;
+<?php $nome = 'Hello World';
 
-//não esqueça o ponto e vírgula
-
-$a = 5;
-$b = 5;
-
-echo $nome,$a + $b;
+echo 'PHP'.$nome
 
 ?>
